@@ -77,7 +77,7 @@ def seo_audit(url):
     print(f"Nombre de liens entrants: {len(domain_links)}")
     print(f"Nombre de liens sortants: {len(non_domain_links)}")
     print(f"Présence de balises alt: {bool(alt_values)}")
-
+    
 # Testez le programme avec l'URL choisi
 url_to_audit = input("Veuillez entrer l'URL à analyser : ")
 seo_audit(url_to_audit)
